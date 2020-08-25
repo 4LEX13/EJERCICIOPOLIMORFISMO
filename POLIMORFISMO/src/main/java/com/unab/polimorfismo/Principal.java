@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.unab.polimorfismo;
+
+/**
+ *
+ * @author William
+ */
+public class Principal {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Vehiculo vh = new VehiculoDeportivo(0, "", "", "");
+        Vehiculo vh1 = new VehiculoFurgoneta(0, "", "", "");
+        Vehiculo vh2 = new VehiculoTurismo(0, "", "", "");
+        
+        System.out.println(vh.toString());
+    }
+    
+}
